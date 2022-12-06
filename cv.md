@@ -2,8 +2,8 @@
 
 ### Contacts:
 
-**GitHub:** [joyscript](https://github.com/joyscript)
-**E-mail:** joyscript7@gmail.com<br>
+**GitHub:** [joyscript](https://github.com/joyscript)<br>
+**E-mail:** joyscript7@gmail.com
 
 ### About me:
 

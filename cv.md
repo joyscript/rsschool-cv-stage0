@@ -1,4 +1,5 @@
 ## Yana Novik
+
 ---
 
 ### Contacts:
@@ -23,3 +24,19 @@ I like web development and I've been learning on my own for a few months. I am a
 - JavaScript (basic)
 
 ---
+
+### Code example:
+
+```javascript
+function even_or_odd(number) {
+  return number % 2 === 0 ? 'Even' : 'Odd';
+}
+```
+
+---
+
+### Education:
+
+Self-education: HTML-Academy, GLO-Academy, learn.javascript.ru, Youtube channels.
+
+**English level - B1**

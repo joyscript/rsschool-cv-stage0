@@ -1,44 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
     <title>CV</title>
   </head>
   <body>
     <div class="wrapper">
-      <h1>Yana Novik</h1>
-      <hr>
-      <h2>Contacts:</h2>
-      <ul>
-        <li>
-          GitHub:
-          <a href="https://github.com/joyscript">joyscript</a>
-        </li>
-        <li>E-mail: joyscript7@gmail.com</li>
-      </ul>
-      <h2>About me:</h2>
-      <p>
-        I like web development and I’ve been learning on my own for a few months. I am a diligent, responsible person and I want to become a
-        good front-end developer.
-      </p>
-      <h2>Skills:</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Figma</li>
-        <li>Git, GitHub</li>
-        <li>JavaScript (basic)</li>
-      </ul>
-      <h2>Code example:</h2>
-      <pre><code>function even_or_odd(number) {
-  return number % 2 === 0 ? 'Even' : 'Odd';
+      <header class="header">
+        <nav>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#about">About me</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#english">English</a></li>
+            <li><a class="nav-link" href="#code">Code</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="row">
+          <div class="left-column">
+            <img class="avatar" src="assets/avatar.jpg" alt="Avatar" />
+          </div>
+
+          <div class="right-column" id="contacts">
+            <h1>Yana Novik</h1>
+            <h2>Contacts:</h2>
+            <ul>
+              <li>
+                GitHub:
+                <a href="https://github.com/joyscript">joyscript</a>
+              </li>
+              <li>Discord: Yana (@joyscript)</li>
+              <li>E-mail: joyscript7@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="left-column" id="skills">
+            <h2>Skills:</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Figma</li>
+              <li>Git, GitHub</li>
+              <li>JavaScript (basic)</li>
+            </ul>
+          </div>
+
+          <div class="right-column" id="about">
+            <h2>About me:</h2>
+            <p>
+              I am a curious, diligent and responsible person. I like web development, programming and learning new things.
+              Currently I am studying at The Rolling Scopes School on the JavaScript/Front-end course. My goal is to&nbsp;become a
+              good front-end developer and get a remote job. To do this, I&nbsp;am ready to study hard and make every effort.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="left-column" id="education">
+            <h2>Education:</h2>
+            <h3>Courses:</h3>
+
+            <ul>
+              <li>HTML Academy</li>
+              <li>Hexlet - JavaScript Basics</li>
+              <li>GLO Academy - intensives</li>
+              <li>Vladilen Minin - JS marathon</li>
+              <li>learn.javascript.ru</li>
+              <li>YouTube channels</li>
+            </ul>
+          </div>
+
+          <div class="right-column" id="projects">
+            <h2>Projects:</h2>
+            <div class="projects-wrapper">
+              <a class="project-link" href="https://joyscript.github.io/Travel-Landing-Page/" target="_blank">
+                <h3>Odigo - landing page</h3>
+                <img class="project-pic" src="assets/project1.jpg" alt="Project" />
+                <p>HTML, CSS, adaptive layout</p>
+              </a>
+              <a class="project-link" href="https://joyscript.github.io/Car-gallery/" target="_blank">
+                <h3>Car gallery</h3>
+                <img class="project-pic" src="assets/project2.jpg" alt="Project" />
+                <p>HTML, CSS, JavaScript</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="left-column" id="english">
+            <h2>English</h2>
+            <p>Level - B1 (intermediate)</p>
+          </div>
+          <div class="right-column" id="code">
+            <h2>Code example:</h2>
+            <pre><code><b>function</b> even_or_odd(number) {
+  <b>return</b> number % 2 === 0 ? 'Even' : 'Odd';
 }</code></pre>
-      <h2>Education:</h2>
-      <p>Self-education: HTML-Academy, GLO-Academy, learn.javascript.ru, Youtube channels.</p>
-      <p>English level - B1</p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <a href="https://github.com/joyscript" class="github-link" target="_blank">joyscript</a>
+        <span>© 2022</span>
+        <a href="https://rs.school/js/" class="rss-link" target="_blank"></a>
+      </footer>
     </div>
   </body>
 </html>

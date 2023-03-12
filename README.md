@@ -1,3 +1,3 @@
-https://joyscript.github.io/rsschool-cv/cv
+https://joyscript.github.io/rsschool-cv-stage0/cv
 
-https://joyscript.github.io/rsschool-cv/
+https://joyscript.github.io/rsschool-cv-stage0/
